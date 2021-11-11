@@ -14,6 +14,10 @@ public class RouterNetwork extends Battery{
         }
 
         public class NetworkBuild extends BatteryBuild{
+                @Override
+                public void draw(){
+                        // 👀
+                }
 
                 @Override
                 public void placed(){
